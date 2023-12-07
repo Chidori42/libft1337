@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/07 17:04:44 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/11/28 04:19:13 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2023/12/05 15:53:18 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 		return ;
 	if (!(*lst))
 		*lst = new;
-	else 
+	else
 	{
 		temp = *lst;
 		while (temp->next != NULL)

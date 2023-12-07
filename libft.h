@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 22:31:36 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/11/21 14:01:22 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2023/12/05 15:53:37 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int				ft_isascii(int c);
 
 int				ft_isdigit(int c);
 
-int				ft_isprint(int c); 
+int				ft_isprint(int c);
 
 char			*ft_itoa(int n);
 

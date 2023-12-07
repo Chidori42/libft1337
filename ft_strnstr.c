@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 13:51:59 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/11/25 17:39:41 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2023/12/05 16:23:19 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,10 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	size_t	i;
 	size_t	j;
 
-	if (!str && len == 0 && !to_find[0])
+	if (!str && !len && !to_find[0])
 		return (NULL);
 	if (*to_find == '\0')
-	{
 		return ((char *)str);
-	}
 	i = 0;
 	while (str[i] && i < len)
 	{

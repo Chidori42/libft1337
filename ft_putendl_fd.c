@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 18:24:30 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/11/16 01:37:13 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2023/11/29 15:38:26 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ void	ft_putendl_fd(char *s, int fd)
 
 	i = 0;
 	if (fd < 0 || !(s))
-	{
 		return ;
-	}
 	while (s[i])
 	{
 		ft_putchar_fd(s[i], fd);

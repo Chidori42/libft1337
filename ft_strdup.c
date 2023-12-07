@@ -6,7 +6,7 @@
 /*   By: ael-fagr <ael-fagr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/30 22:42:19 by ael-fagr          #+#    #+#             */
-/*   Updated: 2023/11/21 13:57:01 by ael-fagr         ###   ########.fr       */
+/*   Updated: 2023/11/29 15:39:35 by ael-fagr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,9 +33,7 @@ char	*ft_strdup(const char *src)
 	len = ft_strlen(src) + 1;
 	dest = (char *)malloc(len * sizeof(char));
 	if (dest == NULL)
-	{
 		return (0);
-	}
 	ft_strcpy(dest, src);
 	return (dest);
 }
